@@ -1,0 +1,45 @@
+<html>
+    <header>
+        <title>Login & Reg Form</title>
+        <link rel="stylesheet" href="login&regform.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </header>
+    <body>
+      <div class="body">
+          <img src="rr.png"style="height:80px; width:80px;margin-top:40px; margin-left:47%;">
+          
+          <div class="formbox">
+            
+                <div style="margin-top:20px;margin-left:100px;">
+                   
+                    <button type="button"  class="btn btn-info"href="#register" onclick="login();">Log in</button>
+                    <button type="button" class="btn btn-info"href="#login" onclick="register();">Register</button>
+                </div>
+                <div><img src=fb.jpg style="height:30px; width:30px;margin-left:120px;margin-top: 30px;">
+                <img src=insta.jpg style="height:35px; width:35px;margin-top: 30px;">
+                <img src=twitter.png style="height:30px; width:30px;margin-top: 30px;"></div>
+             <div>  
+            <form id="login">
+                <input type="text" style="margin-top:50px; margin-left:80px; text-align: center; border: none;
+            "} placeholder="User Id" required>
+                <input type="password" style="margin-top:20px; margin-left:80px; text-align: center;" placeholder="Password" required>
+                <div><p><input type="checkbox" style="margin-top:40px; margin-left: 80px; text-align: center;"><span style="margin-left:10px;">Remember password</span></p></div>
+                <button type="submit" style="margin-left:120px; margin-top:45px;" class="btn btn-dark">Log in</button>
+            </form>
+          </div>
+          <div>
+            <form id="register">
+                <input type="text" style="margin-top:50px; margin-left:80px; text-align: center;" placeholder="User Name" required>
+                <input type="email" style="margin-top:20px; margin-left:80px; text-align: center;" placeholder="Email Id" required>
+                <input type="password" style="margin-top:20px; margin-left:80px; text-align: center;" placeholder="Enter Password" required>
+                <div><p><input type="checkbox" style="margin-left: 40px; margin-top:40px; text-align: center;"><span style="margin-left:10px;">I agreed to the terms and condition</span></p></div>
+                <button type="submit"style="margin-left:120px; margin-top:0px;" class="btn btn-dark">Register</button>
+            </form>
+        </div>
+            
+           </div>
+         </div>
+    </body>
+   <script src="login&regform.js"></script>
+
+    </html>
